@@ -15,7 +15,7 @@ Welcome to my cybersecurity lab and project portfolio. Projects are organized by
 ### 🛠️ IPv6 Cybersecurity Homelab
 **Lab**: VirtualBox lab over IPv6 with Ubuntu, Kali, Metasploitable, and Windows 10.  
 **Skills**: Network enumeration, IPv6 configs, offensive simulation.  
-[Blog](/posts/2025-07-14-ipv6-homelab-setup.md) · [GitHub](https://github.com/ramsesdutch)
+[Blog](/_posts/2025-07-14-ipv6-homelab-setup.md) · [GitHub](https://github.com/ramsesdutch)
 
 ---
 
