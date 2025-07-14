@@ -1,20 +1,15 @@
 ---
-title: About
-permalink: /about/
+title: Contact
+permalink: /contact/
 layout: single
-author_profile: true
+author_profile: false
 ---
 
-# 👋 About Me
+# 📬 Contact Me
 
-I’m Ramses, a cybersecurity student with a strong focus on both red and blue team techniques. I’m building my technical portfolio through real-world labs, offensive/defensive research, and self-driven projects.
+Whether you're a recruiter, cybersecurity pro, or fellow student — feel free to reach out.
 
-- 🎓 Currently studying Cybersecurity (Associate Degree)
-- 🧠 Learning full-spectrum defense: from pentesting to SIEM detection
-- 🛡️ Focused on building a professional portfolio to land a security internship in Switzerland
+- 📧 Email: [ramses.dutch@proton.me](mailto:ramses.dutch@proton.me)
+- 🧠 GitHub: [github.com/ramsesdutch](https://github.com/ramsesdutch)
 
-This blog documents my learning journey, technical deep dives, and reflections on practical skills development.
-
----
-
-💬 Want to connect? Head over to [Contact](/contact/) or reach out on GitHub.
+If you have feedback on my work or want to collaborate, I'm open!
