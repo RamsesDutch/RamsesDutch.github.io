@@ -1,41 +1,32 @@
 ---
-title: Projects
-permalink: /projects/
+title: "Projects"
 layout: single
-author_profile: false
+permalink: /projects/
+author_profile: true
 ---
 
-# 🛠️ Cybersecurity Projects
-
-This page showcases hands-on security labs and projects I've completed as part of my journey in red teaming, blue teaming, and full-stack cyber defense.
-
----
-
-## 🔴 Red Team Projects
-> Offensive security labs focused on ethical hacking and exploitation.
-
-- *(Coming soon)* Active Directory Attack Lab
-- *(Planned)* TryHackMe/HTB Offensive Path
+Welcome to my cybersecurity project index. This space will soon showcase in-depth practical writeups categorized by:
 
 ---
 
-## 🔵 Blue Team Projects
-> Defensive engineering, detection, and response.
-
-- *(Coming soon)* SIEM Detection Lab with ELK Stack
-- *(Planned)* Windows Event Log Analysis
+## 🔴 Red Team
+> Offensive security, pentesting labs, attack simulations  
+_**Coming soon:** Active Directory labs, web app exploits, post-exploitation._
 
 ---
 
-## 🌐 Web Security Projects
-> Application pentests and common vulnerability research.
-
-- *(Coming soon)* WebGoat OWASP Lab Walkthrough
-- *(Planned)* Bug bounty-style test environments
+## 🔵 Blue Team
+> Defensive security, detection engineering, SIEM use cases  
+_**Coming soon:** Sigma rules, log correlation in Splunk, Sysmon tuning._
 
 ---
 
-## 🧪 Malware & Reverse Engineering
-> Static and dynamic malware analysis, sandboxing, and threat intel.
+## 🧬 Malware Analysis
+> Reverse engineering and dynamic/static analysis  
+_**Coming soon:** Malware sandboxing, unpacking PE files, signature writing._
 
-- *(Planned)* Basic malware analysis with FLARE VM
+---
+
+## 🧪 Lab Automation
+> Building test environments for red/blue practice  
+_**Coming soon:** Ansible deployment, DetectionLab, custom virtual networks._
