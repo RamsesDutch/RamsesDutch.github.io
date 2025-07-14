@@ -1,16 +1,15 @@
 main:
- - title: Home
+- title: Home
   url: /
+
 - title: Projects
   url: /projects/
-  children:
-    - title: AD Lab
-      url: /projects/ad-lab/
-    - title: Malware Analysis
-      url: /projects/malware-analysis/
+
 - title: Blog
   url: /blog/
+
 - title: About
   url: /about/
+
 - title: Contact
   url: /contact/
