@@ -59,32 +59,26 @@ Each system had slightly different syntax or quirks, so I documented every confi
 
 ---
 
-### Connectivity Tests
+### Ubuntu Server Netplan Configuration
 
-To verify everything was working:
+Here is the exact configuration I used on the Ubuntu Server to assign its static IPv6 address:
 
-- Used `ping6` from each VM to all others
-- From Kali, ran: `nmap -6 -sV fd12:3456:789a:1::/64` to discover active hosts and services
-- Confirmed consistent packet return and zero drops after firewall fixes
-
-✅ All systems can talk to each other via IPv6 without NAT, using their static addresses.
+![Ubuntu Server netplan configuration](/assets/images/ubuntu-server-netplan.png)
 
 ---
 
-### Screenshots 📸 (optional but recommended)
+Connectivity Tests
+After configuring all the VMs, I tested connectivity between them using IPv6 ping commands. Here are screenshots showing:
 
-I suggest adding 2–3 high-quality screenshots to enhance the post:
+Kali Linux successfully pinging Metasploitable 2
+![Kali ping to metasploitable](/assets/images/ping-kali-to-metasploitable.PNG)
 
-1. **VirtualBox Network Configuration**  
-   Show all VMs connected to `intnet` under “Network > Adapter 1”.
+Ubuntu Desktop successfully pinging Windows 10
 
-2. **IPv6 ping from Kali to Metasploitable**  
-   Highlight command + successful return.
+These confirmed that the IPv6 network is fully functional, and all machines can communicate without NAT.
 
-3. **Netplan YAML in Ubuntu Server**  
-   Display `/etc/netplan/01-intnet.yaml` with your custom IPv6 config.
+What’s Next?
+With this IPv6 homelab ready, I plan to move on to practical projects like port scanning, vulnerability assessments, and network monitoring — all within a realistic IPv6 environment.
 
-To embed an image (place inside `/assets/images/`):
-
-```markdown
-![Kali pinging Metasploitable over IPv6](/assets/images/kali-ping-ipv6.png)
+Final Thoughts
+Setting up this homelab was a great learning experience. Getting IPv6 right requires attention to detail, but it’s invaluable for anyone serious about networking and cybersecurity. The ability to build, break, and fix systems in a controlled lab environment accelerates understanding far beyond theory.
