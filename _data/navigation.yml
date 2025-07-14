@@ -1,15 +1,15 @@
 main:
-- title: Home
+- title: "Home"
   url: /
 
-- title: Projects
+- title: "Projects"
   url: /projects/
 
-- title: Blog
+- title: "Blog"
   url: /blog/
 
-- title: About
+- title: "About"
   url: /about/
 
-- title: Contact
+- title: "Contact"
   url: /contact/
