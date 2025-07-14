@@ -57,9 +57,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Ramses Dutch"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Cybersecurity student building a hands-on portfolio in red teaming, detection engineering, and malware analysis. Focused on practical skills, real-world labs, and a future career in Switzerland's cyber defense landscape."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
