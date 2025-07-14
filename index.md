@@ -1,37 +1,40 @@
 ---
+title: "Ramses | Aspiring Cybersecurity Specialist"
 layout: splash
-title: "Welcome"
 permalink: /
 header:
   overlay_color: "#000"
-  overlay_filter: "0.4"
-  overlay_image: /assets/images/ipv6-lab-header.jpg
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/homelab-banner.jpg
   actions:
-    - label: "View My Blog"
-      url: /blog/
-    - label: "GitHub Portfolio"
-      url: https://github.com/ramsesdutch
-excerpt: >
-  I'm a cybersecurity student with a passion for building, breaking, and securing networks.  
-  This portfolio showcases my journey through homelab experiments, security projects, and deep dives into the world of hacking and defense.
-intro:
-  - excerpt: "🚀 Check out my latest blog posts, network labs, and cybersecurity experiments."
-feature_row:
-  - image_path: /assets/images/blog-thumb.jpg
-    alt: "Blog"
-    title: "Blog Posts"
-    excerpt: "Write-ups, labs, and learning notes"
-    url: "/blog/"
-  - image_path: /assets/images/github-thumb.jpg
-    alt: "GitHub"
-    title: "Code & Projects"
-    excerpt: "Visit my GitHub repo for tools and scripts"
-    url: "https://github.com/ramsesdutch"
-  - image_path: /assets/images/about-thumb.jpg
-    alt: "About Me"
-    title: "About Me"
-    excerpt: "Who I am and what I'm working toward"
-    url: "/about/"
+    - label: "View My Projects"
+      url: "/projects/"
+    - label: "Read My Blog"
+      url: "/blog/"
+excerpt: "Cybersecurity student | Homelab builder | Future defender"
 ---
 
-{% include feature_row %}
+## About Me
+
+I'm a cybersecurity student focused on building practical skills through hands-on labs, offensive/defensive projects, and continuous learning. My long-term goal is to work in Switzerland at the forefront of cyber defense.
+
+- 🎓 Currently studying: Associate Degree in Cybersecurity
+- 🛠️ Projects: Homelabs, IPv6 networks, attack simulations
+- 🧠 Learning: Python, networking, ethical hacking, and more
+
+---
+
+## Focus Areas
+
+- 🔐 Penetration testing & vulnerability scanning  
+- 🖥️ Homelab infrastructure (VirtualBox, IPv6, Linux/Windows)  
+- 📊 Documentation & blogging for deep learning  
+- 🌍 Learning German to prepare for working in Zurich  
+
+---
+
+## Explore
+
+- 👉 [My GitHub Portfolio](https://github.com/ramsesdutch)  
+- 📝 [Blog Posts](/blog/)  
+- 📂 [Cybersecurity Projects](/projects/)  
