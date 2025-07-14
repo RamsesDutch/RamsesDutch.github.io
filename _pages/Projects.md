@@ -6,47 +6,72 @@ author_profile: true
 read_time: true
 ---
 
-Welcome to my project showcase. Below you'll find a collection of cybersecurity labs, offensive/defensive tools, and hands-on experiments — each designed to deepen my understanding of networks, vulnerabilities, and systems.
+Welcome to my cybersecurity lab and project portfolio. Projects are organized by discipline so you can quickly explore my work in offensive, defensive, and scripting domains.
 
 ---
 
-## 🔧 Active Projects
+## 🔴 Red Team Projects
 
-### ✅ IPv6 Cybersecurity Homelab
-- **Description**: A full virtual lab environment over IPv6 with Ubuntu, Kali, Windows, and Metasploitable. Built for realistic offensive/defensive testing.
-- **Blog Post**: [Read the write-up](/blog/building-my-first-ipv6-cybersecurity-homelab/)
-- **GitHub**: [View Configuration Files](https://github.com/ramsesdutch)
-
----
-
-## 🧪 Labs & Experiments
-
-### 🕷️ Metasploit + Kali: Exploiting Windows 10
-- **Description**: Discovered and exploited vulnerabilities in a simulated Windows 10 target using Metasploit and manual techniques.
-- **Blog Post**: _Coming soon_
-- **GitHub**: _N/A_
-
-### 🔍 Packet Sniffing & Analysis (Wireshark, tcpdump)
-- **Description**: Captured and analyzed traffic in my IPv6 lab to identify cleartext credentials and suspicious payloads.
-- **Write-up**: _Coming soon_
+### 🛠️ IPv6 Cybersecurity Homelab
+**Lab**: VirtualBox lab over IPv6 with Ubuntu, Kali, Metasploitable, and Windows 10.  
+**Skills**: Network enumeration, IPv6 configs, offensive simulation.  
+[Blog](/blog/building-my-first-ipv6-cybersecurity-homelab/) · [GitHub](https://github.com/ramsesdutch)
 
 ---
 
-## 💻 Mini Tools & Scripts
-
-### 🛠️ AutoNet: Quick Network Config for Labs
-- **Description**: Bash script to rapidly apply static IPv6 settings across multiple VMs.
-- **GitHub**: [View script](https://github.com/ramsesdutch)
-
----
-
-## 💡 Upcoming Projects
-
-- ✅ VulnHub machine walkthroughs  
-- ✅ Custom Snort IDS rules  
-- ✅ Sysmon + ELK lab setup  
-- ✅ Buffer overflow lab (x86, Linux)
+### 🎯 Windows 10 Exploitation (Metasploit)
+**Goal**: Exploited a Windows 10 machine using known vulnerabilities and Metasploit.  
+**Skills**: Payload generation, reverse shells, privilege escalation.  
+_Write-up coming soon_
 
 ---
 
-Want the full story behind each project? Head to the [Blog](/blog/) or visit my [GitHub Portfolio](https://github.com/ramsesdutch).
+### 📡 VulnHub Boxes (Boot2Root)
+**Lab**: Local VM challenges with real-world exploit chains.  
+**Skills**: Enumeration, web exploitation, shell access.  
+_Write-ups coming soon_
+
+---
+
+## 🔵 Blue Team Projects
+
+### 🔍 Packet Capture & Threat Analysis
+**Goal**: Captured IPv6 traffic to detect cleartext creds, ICMP abuse, and port scans.  
+**Tools**: Wireshark, tcpdump  
+_Write-up coming soon_
+
+---
+
+### 🛡️ Sysmon + ELK Stack (Planned)
+**Goal**: Log and visualize system events in real time using Sysmon + ELK.  
+**Tools**: Elastic Stack, Sigma rules  
+_Deployment blog coming soon_
+
+---
+
+### 🧪 Snort Custom Rules (Planned)
+**Goal**: Create and test custom intrusion detection rules for IPv6-based scans.  
+**Tools**: Snort3, PCAP analysis  
+_Planning phase_
+
+---
+
+## 💻 Tools & Scripts
+
+### ⚙️ AutoNet: IPv6 Lab Configurator
+**What**: Bash script to quickly apply static IPv6 to any VM in VirtualBox.  
+**Why**: Saves time rebuilding lab VMs.  
+[GitHub](https://github.com/ramsesdutch)
+
+---
+
+## 🚀 Upcoming Projects
+
+- Buffer overflow lab (Linux x86)  
+- Binary patching challenge  
+- Live incident response scenario  
+- TryHackMe & HackTheBox write-ups
+
+---
+
+**🧭 Tip:** Want to dive deeper into how I built these? Visit the [Blog](/blog/) or view the source code on my [GitHub Portfolio](https://github.com/ramsesdutch).
