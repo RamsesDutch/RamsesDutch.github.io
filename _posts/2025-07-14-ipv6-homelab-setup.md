@@ -16,6 +16,7 @@ tags:
   - ubuntu
   - windows
   - linux
+permalink: /blog/ipv6-homelab-setup/
 ---
 
 ## Building My First IPv6 Cybersecurity Homelab
