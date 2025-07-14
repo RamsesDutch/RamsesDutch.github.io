@@ -1,9 +1,8 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+ - title: Projects
+  url: /projects/
+  children:
+    - title: AD Lab
+      url: /projects/ad-lab/
+    - title: Malware Analysis
+      url: /projects/malware-analysis/
