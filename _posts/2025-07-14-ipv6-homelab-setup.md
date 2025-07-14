@@ -63,7 +63,7 @@ Each system had slightly different syntax or quirks, so I documented every confi
 
 Here is the exact configuration I used on the Ubuntu Server to assign its static IPv6 address:
 
-![Ubuntu Server netplan configuration](/assets/images/ubuntu-server-netplan.png)
+![Ubuntu Server netplan configuration](/assets/images/ubuntu-server-netplan.PNG)
 
 ---
 
