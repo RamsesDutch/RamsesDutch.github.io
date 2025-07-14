@@ -67,15 +67,20 @@ Here is the exact configuration I used on the Ubuntu Server to assign its static
 
 ---
 
-Connectivity Tests
+### Connectivity Tests
 After configuring all the VMs, I tested connectivity between them using IPv6 ping commands. Here are screenshots showing:
 
-Kali Linux successfully pinging Metasploitable 2
+Kali Linux successfully pinging Metasploitable 2:
+
 ![Kali ping to metasploitable](/assets/images/ping-kali-to-metasploitable.PNG)
 
-Ubuntu Desktop successfully pinging Windows 10
+Ubuntu Desktop successfully pinging Windows 10:
+
+![Ubuntu ping to windows10](/assets/images/ping-ubuntu-to-windows10.PNG)
 
 These confirmed that the IPv6 network is fully functional, and all machines can communicate without NAT.
+
+---
 
 What’s Next?
 With this IPv6 homelab ready, I plan to move on to practical projects like port scanning, vulnerability assessments, and network monitoring — all within a realistic IPv6 environment.
