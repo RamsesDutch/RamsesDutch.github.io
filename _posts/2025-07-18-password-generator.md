@@ -59,7 +59,8 @@ If you already installed pyperclip you should see:
 - Timestamps output for file traceability
 - Clipboard export with optional pyperclip support
 
-<details><summary>View Full Python Code</summary>
+<details>
+<summary>View Full Python Code</summary>
 
 ```python
 import random
@@ -186,7 +187,8 @@ def main():
 if __name__ == "__main__":
     main()
 
-</details> ```
+```
+</details>
 
 Sample Output
 bash
