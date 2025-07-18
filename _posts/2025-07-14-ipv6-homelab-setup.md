@@ -1,6 +1,6 @@
 ---
 title: "Building My First IPv6 Cybersecurity Homelab"
-date: 2025-07-14
+date: 14-07-2025
 layout: single
 author_profile: true
 read_time: true
