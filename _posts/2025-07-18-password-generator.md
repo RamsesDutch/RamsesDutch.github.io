@@ -62,6 +62,16 @@ If you already installed pyperclip you should see:
 <details>
 <summary>View Full Python Code</summary>
 
+<style>
+  pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+</style>
+
 <pre><code class="language-python">
 import random
 import string
