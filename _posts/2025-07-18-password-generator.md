@@ -63,8 +63,132 @@ If you already installed pyperclip you should see:
 python
 Copy
 Edit
-# Full password_generator.py script here
-# See earlier message for complete source
+
+import random
+import string
+import argparse
+from datetime import datetime
+import sys
+import os
+
+# Try importing pyperclip for clipboard copy; if not available, disable that feature
+try:
+    import pyperclip
+    CLIPBOARD_AVAILABLE = True
+except ImportError:
+    CLIPBOARD_AVAILABLE = False
+
+def generate_password(length, use_upper, use_lower, use_digits, use_symbols):
+    characters = ''
+    if use_upper:
+        characters += string.ascii_uppercase
+    if use_lower:
+        characters += string.ascii_lowercase
+    if use_digits:
+        characters += string.digits
+    if use_symbols:
+        characters += string.punctuation
+
+    if not characters:
+        raise ValueError("No character types selected for password generation. "
+                         "Use flags to include at least one character set.")
+
+    return ''.join(random.choice(characters) for _ in range(length))
+
+def save_passwords_to_file(passwords):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    # Save file in the same directory as the script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    filename = os.path.join(script_dir, f"passwords_{timestamp}.txt")
+    try:
+        with open(filename, 'w') as f:
+            for i, pwd in enumerate(passwords, 1):
+                f.write(f"{i}. {pwd}\n")
+    except Exception as e:
+        print(f"Error saving passwords to file: {e}")
+        return None
+    return filename
+
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Generate secure random passwords.",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+
+    parser.add_argument('-n', '--number', type=int, default=10,
+                        help='Number of passwords to generate')
+    parser.add_argument('-l', '--length', type=int, default=16,
+                        help='Length of each password')
+    parser.add_argument('--no-upper', action='store_true',
+                        help='Exclude uppercase letters (A-Z)')
+    parser.add_argument('--no-lower', action='store_true',
+                        help='Exclude lowercase letters (a-z)')
+    parser.add_argument('--no-digits', action='store_true',
+                        help='Exclude digits (0-9)')
+    parser.add_argument('--no-symbols', action='store_true',
+                        help='Exclude symbols (e.g. !@#$%)')
+    parser.add_argument('--no-save', action='store_true',
+                        help="Don't save passwords to a file")
+    parser.add_argument('--copy', action='store_true',
+                        help='Copy generated passwords to clipboard (requires pyperclip)')
+
+    return parser.parse_args()
+
+def main():
+    args = parse_args()
+
+    # Validate length and number
+    if args.length < 4:
+        print("Error: Password length should be at least 4 for security.")
+        sys.exit(1)
+    if args.number < 1:
+        print("Error: Number of passwords must be at least 1.")
+        sys.exit(1)
+
+    use_upper = not args.no_upper
+    use_lower = not args.no_lower
+    use_digits = not args.no_digits
+    use_symbols = not args.no_symbols
+
+    try:
+        passwords = [generate_password(args.length, use_upper, use_lower, use_digits, use_symbols)
+                     for _ in range(args.number)]
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+
+    # Print passwords cleanly
+    print("\n=== Generated Passwords ===")
+    for i, pwd in enumerate(passwords, 1):
+        print(f"{i:2d}. {pwd}")
+    print("=" * 25)
+
+    # Save to file unless --no-save
+    if not args.no_save:
+        filename = save_passwords_to_file(passwords)
+        if filename:
+            print(f"\nPasswords saved to file: {filename}")
+        else:
+            print("\nFailed to save passwords to file.")
+    else:
+        print("\nPassword saving skipped (--no-save used).")
+
+    # Clipboard copy option
+    if args.copy:
+        if CLIPBOARD_AVAILABLE:
+            joined_passwords = '\n'.join(passwords)
+            pyperclip.copy(joined_passwords)
+            print("\nPasswords copied to clipboard!")
+        else:
+            print("\nClipboard copy requested, but 'pyperclip' module not installed.")
+            print("Install it with: pip install pyperclip")
+
+    print("\nDone.")
+    input("\nPress Enter to exit...")
+
+if __name__ == "__main__":
+    main()
+
+
 </details>
 Sample Output
 bash
