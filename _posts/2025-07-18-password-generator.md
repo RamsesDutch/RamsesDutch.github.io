@@ -62,7 +62,11 @@ If you already installed pyperclip you should see:
 <details>
 <summary>View Full Python Code</summary>
 
+<br>
+
 ```python
+Copy
+Edit
 import random
 import string
 import argparse
