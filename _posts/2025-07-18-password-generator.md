@@ -31,11 +31,8 @@ The script supports a wide range of options:
 "path_to_python_executable" "path_to_your_python_script" [options]
 ```
 This command generates 10 passwords, each 16 characters long by default (parameters can be changed in [options]) and copies them to your clipboard (if pyperclip is installed). The passwords are also saved to a file like:
-
-```Copy
-Edit
 passwords_20250718_144233.txt
-```
+
 
 ![Output password generator censored](/assets/images/output-password-generator-censored.PNG)
 
@@ -45,10 +42,13 @@ Setup
 You only need Python 3 to run the script. To enable clipboard functionality:
 
 ```bash
-Copy
-Edit
 pip install pyperclip
 ```
+If you already installed pyperclip you should see: 
+
+![Pip install](/assets/images/pip-install-censored.PNG)
+
+---
 
 Behind the Script
 Key components:
