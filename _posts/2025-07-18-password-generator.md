@@ -35,7 +35,9 @@ This command generates 10 passwords, each 16 characters long by default (paramet
 Copy
 Edit
 passwords_20250718_144233.txt
-![Output password generator](assets/images/output-password-generator-censored.PNG)
+![Output password generator censored](assets/images/output-password-generator-censored.PNG)
+
+---
 
 Setup
 You only need Python 3 to run the script. To enable clipboard functionality:
