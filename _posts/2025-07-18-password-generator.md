@@ -1,6 +1,6 @@
 ---
 title: "Building a Flexible and Secure Password Generator in Python"
-date: 2025-07-18
+date: 18-07-2025
 categories: [Projects, Python, Cybersecurity]
 tags: [python, security, cli, scripting, automation, password]
 excerpt: "Created a command-line password generator in Python that supports multiple options like length, character types, file saving, and clipboard export. Here's a breakdown of the code and my key takeaways."
