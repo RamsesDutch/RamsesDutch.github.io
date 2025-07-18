@@ -35,6 +35,7 @@ This command generates 10 passwords, each 16 characters long by default (paramet
 Copy
 Edit
 passwords_20250718_144233.txt
+
 ![Output password generator censored](assets/images/output-password-generator-censored.PNG)
 
 ---
