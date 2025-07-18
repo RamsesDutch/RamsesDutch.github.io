@@ -65,8 +65,6 @@ If you already installed pyperclip you should see:
 <br>
 
 ```python
-Copy
-Edit
 import random
 import string
 import argparse
@@ -74,7 +72,7 @@ from datetime import datetime
 import sys
 import os
 
-# Try importing pyperclip for clipboard copy; if not available, disable that feature
+# Importing pyperclip for clipboard copy; if it isn't available, disable this feature
 try:
     import pyperclip
     CLIPBOARD_AVAILABLE = True
