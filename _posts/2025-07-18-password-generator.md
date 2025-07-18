@@ -64,7 +64,8 @@ If you already installed pyperclip you should see:
 
 <br>
 
-```python
+```
+python
 import random
 import string
 import argparse
