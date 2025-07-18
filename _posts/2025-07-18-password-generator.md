@@ -30,7 +30,7 @@ The script supports a wide range of options:
 ```bash
 "path_to_python_executable" "path_to_your_python_script" [options]
 ```
-This command generates 5 passwords, each 20 characters long by default (parameters can be changed in [options]) and copies them to your clipboard (if pyperclip is installed). The passwords are also saved to a file like:
+This command generates 10 passwords, each 16 characters long by default (parameters can be changed in [options]) and copies them to your clipboard (if pyperclip is installed). The passwords are also saved to a file like:
 
 Copy
 Edit
