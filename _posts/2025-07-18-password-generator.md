@@ -61,7 +61,7 @@ If you already installed pyperclip you should see:
 
 <details><summary>View Full Python Code</summary>
 
-```bash
+```python
 import random
 import string
 import argparse
@@ -186,8 +186,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-</details>
-```
+</details> ```
 
 Sample Output
 bash
