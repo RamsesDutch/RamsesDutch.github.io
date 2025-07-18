@@ -28,7 +28,7 @@ The script supports a wide range of options:
 ## Example Usage
 
 ```bash
-python password_generator.py -n 5 -l 20 --copy
+"path_to_python_executable" "path_to_your_python_script" [options]
 ```
 This command generates 5 passwords, each 20 characters long, and copies them to your clipboard (if pyperclip is installed). The passwords are also saved to a file like:
 
