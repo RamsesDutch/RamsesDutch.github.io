@@ -32,9 +32,9 @@ The script supports a wide range of options:
 ```
 This command generates 10 passwords, each 16 characters long by default (parameters can be changed in [options]) and copies them to your clipboard (if pyperclip is installed). The passwords are also saved to a file like:
 
+Copy
+Edit
 passwords_20250718_144233.txt
-
-Screenshot: CLI output of generated passwords
 
 Setup
 You only need Python 3 to run the script. To enable clipboard functionality:
@@ -44,10 +44,9 @@ Copy
 Edit
 pip install pyperclip
 
-Screenshot: Installing pyperclip with pip
-
 Behind the Script
 Key components:
+
 Uses argparse for command-line argument parsing
 
 Character pools from string module (ascii_uppercase, digits, etc.)
@@ -60,7 +59,7 @@ Timestamps output for file traceability
 
 Clipboard export with optional pyperclip support
 
-<details> <summary>View Full Python Code</summary>
+<details><summary>View Full Python Code</summary>
 python
 Copy
 Edit
@@ -81,7 +80,6 @@ Passwords copied to clipboard!
 
 Done.
 
-Screenshot: Opened .txt file showing generated passwords
 
 What I Learned
 How to structure Python CLI tools using argparse
@@ -103,8 +101,6 @@ Edit
 password_generator.py
 passwords_20250718_144233.txt
 README.md
-
-Screenshot: Project folder with script and output files
 
 Future Improvements
 Here are some ideas for extending the project:
@@ -132,7 +128,7 @@ Create a short video demo or GIF for GitHub README
 
 Add this project to your personal GitHub and tag with #cli-tool, #infosec
 
-You can also create a README for GitHub based on this post, or use a starter template like this one to speed up the process.
+You can also create a README.md for GitHub based on this post, or use a starter template to speed up the process.
 
 Final Thoughts
 This project was a great opportunity to combine core cybersecurity principles with practical scripting. Developing tools like this not only streamlines secure workflows but also demonstrates technical initiative—something that’s essential in the cybersecurity field.
@@ -140,8 +136,4 @@ This project was a great opportunity to combine core cybersecurity principles wi
 Thanks for reading. Feel free to fork, improve, or use it in your own projects.
 
 You can view or clone the project here:
-github.com/ramsesdutch/password-generator
-
-yaml
-Copy
-Edit
+https://github.com/ramsesdutch/password-generator
