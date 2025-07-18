@@ -62,10 +62,7 @@ If you already installed pyperclip you should see:
 <details>
 <summary>View Full Python Code</summary>
 
-<br>
-
-```
-python
+```python
 import random
 import string
 import argparse
@@ -73,7 +70,7 @@ from datetime import datetime
 import sys
 import os
 
-# Importing pyperclip for clipboard copy; if it isn't available, disable this feature
+# Try importing pyperclip for clipboard copy; if not available, disable that feature
 try:
     import pyperclip
     CLIPBOARD_AVAILABLE = True
