@@ -64,6 +64,7 @@ python
 Copy
 Edit
 
+```bash
 import random
 import string
 import argparse
@@ -187,8 +188,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
+```
 </details>
 Sample Output
 bash
