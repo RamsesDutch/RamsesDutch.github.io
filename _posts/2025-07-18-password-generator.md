@@ -50,20 +50,14 @@ If you already installed pyperclip you should see:
 
 ---
 
-Behind the Script
-Key components:
+## Behind the Script key components:
 
-Uses argparse for command-line argument parsing
-
-Character pools from string module (ascii_uppercase, digits, etc.)
-
-Random generation using random.choice()
-
-Input validation (length ≥ 4, at least one character type selected)
-
-Timestamps output for file traceability
-
-Clipboard export with optional pyperclip support
+- Uses argparse for command-line argument parsing
+- Character pools from string module (ascii_uppercase, digits, etc.)
+- Random generation using random.choice()
+- Input validation (length ≥ 4, at least one character type selected)
+- Timestamps output for file traceability
+- Clipboard export with optional pyperclip support
 
 <details><summary>View Full Python Code</summary>
 python
