@@ -60,11 +60,8 @@ If you already installed pyperclip you should see:
 - Clipboard export with optional pyperclip support
 
 <details><summary>View Full Python Code</summary>
-python
-Copy
-Edit
 
-```bash
+```python
 import random
 import string
 import argparse
@@ -188,8 +185,9 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
+
 </details>
+```
 Sample Output
 bash
 Copy
