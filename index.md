@@ -34,4 +34,16 @@ feature_row:
     url: "https://github.com/ramsesdutch"
 ---
 
+<link rel="stylesheet" href="https://ramsesdutch.github.io/cyberdogs/style.css">
+
+<div id="cyberdog-widget">
+  <div id="lottie-dog"></div>
+  <div id="message"></div>
+  <a id="train-link" href="https://ramsesdutch.github.io/cyberdogs/kennel/quiz.html">Train Me!</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+<script src="https://ramsesdutch.github.io/cyberdogs/cyberdog.js"></script>
+
+---
 {% include feature_row %}
